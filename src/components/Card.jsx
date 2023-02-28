@@ -5,7 +5,7 @@ const Card = ({image, title, url, alt}) => {
     <div className='container'>
         <img src={`${image}`} alt={`${alt}`} width={250} height={250} />
         <h2>{title}</h2>
-        <a href={`${url}`}>Learn More!</a>
+        <a href={`${url}`} target="_blank">Learn More!</a>
     </div>
   )
 }
